@@ -52,6 +52,9 @@
                 contentType: "application/json",
                 success: function (result) {
                     console.info(result);
+                },
+                error: function (error) {
+                    console.error(error);
                 }
             });
         }
