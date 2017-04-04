@@ -15,12 +15,12 @@ namespace WCF_REST_API.Services
     {
         public int DoAddValues(AddValues addValues)
         {
-            throw new NotImplementedException();
+            return addValues.Value1 + addValues.Value2;
         }
 
         public int DoSquare(int value)
         {
-            throw new NotImplementedException();
+            return value * value;
         }
 
         public String DoWork()
